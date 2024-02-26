@@ -1,9 +1,11 @@
+import { MainPage } from "./pages/Main.page"
+
 function App() {
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className="bg-primary min-h-screen">
+      <MainPage />
+    </div>
   )
 }
 
