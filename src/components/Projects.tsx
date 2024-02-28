@@ -12,13 +12,10 @@ export const Projects = () => {
         <Typography placeholder={"title"} variant='h1' className="font-bold text-center text-highlight">Projetos</Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+          {projectList.map((project) => (
+            <ProjectCard project={project} />
+          ))}
+
         </div>
     </section>
   )
