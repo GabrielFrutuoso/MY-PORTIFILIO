@@ -9,8 +9,8 @@ export const ProjectCard = ({project}: any) => {
             </CardHeader>
             <CardBody placeholder={"card"} className="!p-0 w-80 h-48">
                 <div className="flex flex-wrap gap-3 w-full h-[80px]">
-                    {project.techs.map((techs: any) => (
-                        <Chip value={techs.name} icon={techs.icon} className='flex items-center gap-2 bg-secondary text-white'/>
+                    {project.techs.map((techs: any, index: number) => (
+                        <Chip key={index} value={techs.name} icon={techs.icon} className='flex items-center gap-2 bg-secondary text-white'/>
                     ))}         
                 </div>
                 {project.description}

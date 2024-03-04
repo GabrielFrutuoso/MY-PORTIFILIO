@@ -102,7 +102,7 @@ export const projectList = [
     {
         name: "UniversiaTour-client",
         GHubUrl: "https://github.com/GabrielFrutuoso/UniversiaTour-client",
-        webSiteUrl: "#",
+        webSiteUrl: "https://universia-tour-client.vercel.app",
         description: "#",
         techs: [
             {
