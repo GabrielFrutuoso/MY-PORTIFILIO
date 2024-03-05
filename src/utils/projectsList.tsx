@@ -9,7 +9,7 @@ import { BiLogoTypescript } from 'react-icons/bi'
 export const projectList = [
     {
         name: "Pokevice",
-        description: "Meu primeiro projeto usando requisições para apis, utilizando a famosa pokeApi",
+        description: "Meu primeiro projeto usando requisições para apis, utilizando a famosa pokeApi.",
         GHubUrl: "https://github.com/GabrielFrutuoso/PokeVice",
         webSiteUrl: "https://pokevice.netlify.app",
         techs: [
@@ -29,7 +29,7 @@ export const projectList = [
     },
     {
         name: "RunnePedia",
-        description: "Minha primeira aplicação com multi-páginas",
+        description: "Minha primeira aplicação com multi-páginas.",
         GHubUrl: "https://github.com/GabrielFrutuoso/RunnePedia",
         webSiteUrl: "https://runnepedia.netlify.app",
         techs: [
@@ -49,7 +49,7 @@ export const projectList = [
     },
     {
         name: "Weather-Now",
-        description: "Uma aplicação de previsão do tempo, onde os dados são obtidos de uma api externa, utilizando OpenWeatherMap API",        
+        description: "Uma aplicação de previsão do tempo, onde os dados são obtidos de uma api externa, utilizando OpenWeatherMap API.",        
         GHubUrl: "https://github.com/GabrielFrutuoso/Weather-Now",
         webSiteUrl: "https://climabriel.netlify.app",
         techs: [
@@ -69,7 +69,7 @@ export const projectList = [
     },
     {
         name: "ReactDex",
-        description: "Minha primeira aplicação usando React e Tailwind CSS, denovo usando a pokeApi, para comparar as evoluções com a outra aplicação",
+        description: "Minha primeira aplicação usando React e Tailwind CSS, denovo usando a pokeApi, para comparar as evoluções com a outra aplicação.",
         GHubUrl: "https://github.com/GabrielFrutuoso/ReactDex",
         webSiteUrl: "https://react-n70eqkjqq-gabrielfrutuoso.vercel.app",
         techs: [
@@ -86,8 +86,8 @@ export const projectList = [
     {
         name: "UniversiaTour-api",
         GHubUrl: "https://github.com/GabrielFrutuoso/UniversiaTour-api",
-        webSiteUrl: "#",
-        description: "#",
+        webSiteUrl: "https://universiatour-api.onrender.com/destiny",
+        description: "Uma api para uma aplicação de viagens feita em Nest JS com autenticação JWT, onde o usuário pode ver informações sobre pontos turísticos e criar itinerários na página de perfil.",
         techs: [
             {
                 name: "Nest JS",
@@ -103,7 +103,7 @@ export const projectList = [
         name: "UniversiaTour-client",
         GHubUrl: "https://github.com/GabrielFrutuoso/UniversiaTour-client",
         webSiteUrl: "https://universia-tour-client.vercel.app",
-        description: "#",
+        description: "Uma aplicação simulando uma página de viagens onde o usuário pode ver informações sobre pontos turísticos e criar itinerários na página de perfil.",
         techs: [
             {
                 name: "React JS",

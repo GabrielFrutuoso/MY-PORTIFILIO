@@ -24,7 +24,6 @@ export const Projects = () => {
             >
               <ProjectCard project={project} key={index} />              
             </motion.div>
-
           ))}
 
         </div>

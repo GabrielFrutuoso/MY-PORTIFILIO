@@ -12,11 +12,11 @@ export const Hero = () => {
             <Typography placeholder={"subtitle"} variant='paragraph' className="font-bold text-white text-center">Estou empolgado para mostrar um pouco sobre mim, minhas <a className='text-highlight cursor-pointer hover:underline'>habilidades</a>, <a className='text-highlight cursor-pointer hover:underline'>projetos</a>  e minhas <a className='text-highlight cursor-pointer hover:underline'>experiências</a>.</Typography>
 
             <div className='flex gap-4 mt-6'>
-                <a href="https://github.com/GabrielFrutuoso" className="flex items-center gap-2 text-white bg-secondary p-2 rounded-md">
+                <a href="https://github.com/GabrielFrutuoso" target='_blank' className="flex items-center gap-2 text-white bg-secondary p-2 rounded-md">
                 <VscGithubAlt size={20} color='white' />
                 <span>GitHub</span>
                 </a>
-                <a href="https://www.linkedin.com/in/gabriel-frutuoso-contato" className="flex items-center gap-2 text-white bg-secondary p-2 rounded-md">
+                <a href="https://www.linkedin.com/in/gabriel-frutuoso-contato" target='_blank' className="flex items-center gap-2 text-white bg-secondary p-2 rounded-md">
                 <FaLinkedinIn size={20} color='white' />
                 <span>Linkedin</span>
                 </a>
