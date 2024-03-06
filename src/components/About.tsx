@@ -5,7 +5,7 @@ import { upToDownReveal } from '../animations/upToDownReveal'
 export const About = () => {
 
   return (
-    <section className='min-h-screen flex justify-evenly items-center flex-wrap gap-2'>
+    <section className='min-h-screen flex justify-evenly items-center flex-wrap gap-2 py-10'>
         <motion.div 
         variants={lateralReveal}
         transition={{duration: 0.75, ease: "easeInOut", delay: 0.25}}

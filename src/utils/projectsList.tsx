@@ -7,9 +7,10 @@ import { BiLogoTypescript } from 'react-icons/bi'
 
 
 export const projectList = [
-    {
+    {   
+        id: 1,
         name: "Pokevice",
-        description: "Meu primeiro projeto usando requisições para apis, utilizando a famosa pokeApi.",
+        description: "Meu primeiro projeto trabalhando com requisições HTTP para API´s externas o DOM (Document Object Model) para manuipular elementos HTML com JavaScript, buscando os dados do pokemon escolhido pelo usario.",
         GHubUrl: "https://github.com/GabrielFrutuoso/PokeVice",
         webSiteUrl: "https://pokevice.netlify.app",
         techs: [
@@ -27,9 +28,10 @@ export const projectList = [
             }
         ]
     },
-    {
+    {   
+        id: 2,
         name: "RunnePedia",
-        description: "Minha primeira aplicação com multi-páginas.",
+        description: "Minha primeira aplicação com multi-páginas. Essa aplicação busca informações dos personagens do famoso jogo League of Legends, ao clicar no card de algum personagem, o usuário será redirecionaso para uma nova página com as informações desse personagem.",
         GHubUrl: "https://github.com/GabrielFrutuoso/RunnePedia",
         webSiteUrl: "https://runnepedia.netlify.app",
         techs: [
@@ -47,7 +49,8 @@ export const projectList = [
             }
         ]
     },
-    {
+    {   
+        id: 3,
         name: "Weather-Now",
         description: "Uma aplicação de previsão do tempo, onde os dados são obtidos de uma api externa, utilizando OpenWeatherMap API.",        
         GHubUrl: "https://github.com/GabrielFrutuoso/Weather-Now",
@@ -67,7 +70,7 @@ export const projectList = [
             }
         ]
     },
-    {
+    {   id: 4,
         name: "ReactDex",
         description: "Minha primeira aplicação usando React e Tailwind CSS, denovo usando a pokeApi, para comparar as evoluções com a outra aplicação.",
         GHubUrl: "https://github.com/GabrielFrutuoso/ReactDex",
@@ -83,7 +86,7 @@ export const projectList = [
             }
         ]
     },
-    {
+    {   id: 5,
         name: "UniversiaTour-api",
         GHubUrl: "https://github.com/GabrielFrutuoso/UniversiaTour-api",
         webSiteUrl: "https://universiatour-api.onrender.com/destiny",
@@ -99,7 +102,7 @@ export const projectList = [
             }
         ]
     },
-    {
+    {   id: 6,
         name: "UniversiaTour-client",
         GHubUrl: "https://github.com/GabrielFrutuoso/UniversiaTour-client",
         webSiteUrl: "https://universia-tour-client.vercel.app",

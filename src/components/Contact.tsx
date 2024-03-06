@@ -4,7 +4,7 @@ import { upToDownReveal } from "../animations/upToDownReveal"
 
 export const Contact = () => {
   return (
-    <div className='min-h-screen flex flex-wrap gap-5 justify-evenly items-center'>
+    <div className='min-h-screen py-10 flex flex-wrap gap-5 justify-evenly items-center'>
         <div className="flex flex-col items-center gap-6 w-96">
 
           <motion.div
@@ -22,9 +22,9 @@ export const Contact = () => {
           initial="hidden"
           whileInView="visible"          
           >
-          <Typography placeholder={"title"} variant='h4' className="font-bold text-center text-white">Entre em contato <strong className='text-highlight'>comigo!</strong>.</Typography>            
+          <Typography placeholder={"title"} variant='h5' className="font-bold text-center text-white">Entre em contato <strong className='text-highlight'>comigo!</strong>.</Typography>            
 
-            <Typography placeholder={"title"} variant='h4' className="text-center text-white my-4">GabrielFrutuoso_contato@hotmail.com</Typography>
+            <Typography placeholder={"title"} variant='h6' className="text-center text-white my-4">GabrielFrutuoso_contato@hotmail.com</Typography>
           </motion.div>
         </div>
     </div>
