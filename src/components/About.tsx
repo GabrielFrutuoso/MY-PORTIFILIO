@@ -5,7 +5,7 @@ import { upToDownReveal } from '../animations/upToDownReveal'
 export const About = () => {
 
   return (
-    <section className='min-h-screen flex justify-evenly items-center flex-wrap gap-2 py-10'>
+    <section className='min-h-screen flex justify-evenly items-center flex-wrap gap-2 py-10' id="about">
         <motion.div 
         variants={lateralReveal}
         transition={{duration: 0.75, ease: "easeInOut", delay: 0.25}}
@@ -39,7 +39,7 @@ export const About = () => {
                 Olá, me chamo Gabriel Frutuoso, tenho 19 anos, estudante de Técnico em Informática, sempre gostei de tecnologia, e quando começei a estudar programação, fiquei fascinado com as coisas que eu poderia fazer, sempre quero aprender novas tecnologias ou novas técnicas, com o intuito de aprimorar minhas habilidades.
                 <br/>
                 <br/>
-                Estou buscando minha primeira oportunidade no mercado de trabalho, seja com estagiário ou desenvolvedor junior.
+                Estou buscando minha primeira oportunidade no mercado de trabalho, seja como estagiário ou desenvolvedor junior.
                 </Typography>
             </motion.div>    
 
@@ -54,7 +54,7 @@ export const About = () => {
                 No fim de 2023 participei de um bootcamp full stack focado em Java, na qual aprendi HTML, CSS e JavaScript, além de Java, MySql, e Spring Boot. No fim desse Bootcamp participei de um projeto em equipe, na qual, minha função era criar o front end da aplicação, criando páginas com um visual agradável e responsivo, além de implementar formulários para a interação com o back end.
                 <br/>
                 <br/>
-                Além de sempre desenvolver projetos, com o propósito de aprimorar e aprender novas técnicas e tecnologias
+                Além de sempre desenvolver projetos próprios, com o propósito de aprimorar e aprender novas técnicas e tecnologias.
                 </Typography>
             </motion.div>                       
         </div>

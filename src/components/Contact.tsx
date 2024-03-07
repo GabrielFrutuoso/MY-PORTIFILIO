@@ -4,7 +4,7 @@ import { upToDownReveal } from "../animations/upToDownReveal"
 
 export const Contact = () => {
   return (
-    <div className='min-h-screen py-10 flex flex-wrap gap-5 justify-evenly items-center'>
+    <div className='min-h-screen py-10 flex flex-wrap gap-5 justify-evenly items-center' id="contact">
         <div className="flex flex-col items-center gap-6 w-96">
 
           <motion.div

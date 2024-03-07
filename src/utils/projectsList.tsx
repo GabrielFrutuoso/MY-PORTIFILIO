@@ -5,7 +5,6 @@ import { RiJavascriptFill } from 'react-icons/ri'
 import { SiNestjs, SiTailwindcss } from 'react-icons/si'
 import { BiLogoTypescript } from 'react-icons/bi'
 
-
 export const projectList = [
     {   
         id: 1,

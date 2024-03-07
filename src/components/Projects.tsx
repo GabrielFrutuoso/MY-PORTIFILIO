@@ -10,7 +10,7 @@ export const Projects = () => {
   
 
   return (
-    <section className='min-h-screen flex flex-col gap-5 justify-center items-center py-10'>
+    <section className='min-h-screen flex flex-col gap-5 justify-center items-center py-10' id="projects">
         <Typography placeholder={"title"} variant='h1' className="font-bold text-center text-highlight">Projetos</Typography>
 
         <div className="flex flex-col gap-[120px]">

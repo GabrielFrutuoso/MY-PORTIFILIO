@@ -32,7 +32,7 @@ export const Techs = () => {
             {techList.map((tech, index) => (
             <motion.div
             variants={upToDownReveal}
-            transition={{ duration: 0.5, delay: 0.2 * index, ease: "easeInOut"}}
+            transition={{ duration: 0.5, delay: 0.05 * index, ease: "easeInOut"}}
             initial="hidden"
             whileInView="visible"
             >

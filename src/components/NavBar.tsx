@@ -1,10 +1,14 @@
 import { Button, ButtonGroup, IconButton, Menu, MenuHandler, MenuItem, MenuList, Navbar, Typography } from "@material-tailwind/react"
 import { BiMenu } from "react-icons/bi";
-
+import { Link } from 'react-scroll'
 export const NavBar = () => {
 
-  const scroll = (Yaxys: any) => {
-    window.scrollTo({ top: Yaxys, behavior: 'smooth' });
+  const getSectionPosition = (section: string) => {
+    const element = document.getElementById(section);
+    const y = element?.getBoundingClientRect();
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: y?.top, behavior: 'smooth' });
+    
   }
 
   return (
@@ -14,10 +18,22 @@ export const NavBar = () => {
                <span className="text-white">{"<"}</span>Gabriel Frutuoso <span className="text-white">{"/>"}</span>
             </span>
         </Typography>
-        <ButtonGroup placeholder={"links group"} variant="text" className="hidden md:flex"> 
-        <Button placeholder={"links"} size="lg" className="text-highlight" onClick={() => scroll(0)}>Home</Button>
-        <Button placeholder={"links"} size="lg" className="text-highlight" onClick={() => scroll(740)}>Sobre mim</Button>
-        <Button placeholder={"links"} size="lg" className="text-highlight" onClick={() => scroll(2500)}>Contato</Button>
+        <ButtonGroup placeholder={"links group"} variant="text" className="hidden md:flex">      
+          <Link to="home" spy={true} smooth={true} duration={500}>
+            <Button placeholder={"links"} variant="text" size="md" className="text-highlight">
+              Home
+            </Button> 
+          </Link>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+           <Button placeholder={"links"} variant="text" size="md" className="text-highlight"> 
+            Sobre mim
+           </Button> 
+          </Link>       
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <Button placeholder={"links"} variant="text" size="md" className="text-highlight">
+              Contato
+            </Button>
+          </Link>
       </ButtonGroup>
 
       <Menu>
@@ -27,9 +43,15 @@ export const NavBar = () => {
           </IconButton>
         </MenuHandler>
         <MenuList placeholder={"menu list"} className="bg-secondary text-white border-none">
-          <MenuItem placeholder={"menu item"} onClick={() => scroll(0)}>Home</MenuItem>
-          <MenuItem placeholder={"menu item"} onClick={() => scroll(700)}>Sobre mim</MenuItem>
-          <MenuItem placeholder={"menu item"} onClick={() => scroll(2500)}>contato</MenuItem>
+          <Link to="home" spy={true} smooth={true} duration={500}>
+           <MenuItem placeholder={"menu item"} >Home</MenuItem> 
+          </Link>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            <MenuItem placeholder={"menu item"} >Sobre mim</MenuItem>
+          </Link>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <MenuItem placeholder={"menu item"} >contato</MenuItem>
+          </Link>
         </MenuList>
       </Menu>
     </Navbar>
