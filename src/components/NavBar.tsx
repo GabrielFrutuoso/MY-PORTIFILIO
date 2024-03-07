@@ -3,14 +3,6 @@ import { BiMenu } from "react-icons/bi";
 import { Link } from 'react-scroll'
 export const NavBar = () => {
 
-  const getSectionPosition = (section: string) => {
-    const element = document.getElementById(section);
-    const y = element?.getBoundingClientRect();
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-    window.scrollTo({ top: y?.top, behavior: 'smooth' });
-    
-  }
-
   return (
     <Navbar placeholder={"NavBar"} blurred className="flex justify-between fixed top-2 left-1/2 -translate-x-1/2 z-50 bg-secondary  border-none">
         <Typography placeholder={"logo"} className="flex items-center">
