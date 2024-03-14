@@ -121,4 +121,24 @@ export const projectList = [
             }
         ]
     },    
+    {   id: 7,
+        name: "FastURL-client",
+        GHubUrl: "https://github.com/GabrielFrutuoso/FastURL-client",
+        webSiteUrl: "https://fast-url-client.vercel.app",
+        description: "Um projeto de ecurtador de URLs, onde o usuário insere uma URL e o sistema gera uma URL encurtada, usando uma API de encurtamento feita por mim mesmo.",
+        techs: [
+            {
+                name: "React JS",
+                icon: <FaReact size={20} />,
+            },
+            {
+                name: "Tailwind",
+                icon: <SiTailwindcss size={20} />,
+            },
+            {
+                name: "TypeScript",
+                icon: <BiLogoTypescript size={20} />,
+            }
+        ]
+    },     
 ]
